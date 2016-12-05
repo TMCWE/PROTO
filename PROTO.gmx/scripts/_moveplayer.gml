@@ -9,9 +9,9 @@ switch (keyboard_key) {
         x += argument0;
         break;
     case vk_up:
-        y += argument0;
+        y -= argument0;
         break;
     case vk_down:
-        y -= argument0;
+        y += argument0;
         break;
 }
