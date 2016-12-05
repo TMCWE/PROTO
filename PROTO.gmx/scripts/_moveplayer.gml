@@ -3,15 +3,15 @@
 
 switch (keyboard_key) {
     case vk_left:
-        x -= argument0;
+        x -= argument[0];
         break;
     case vk_right:
-        x += argument0;
+        x += argument[0];
         break;
     case vk_up:
-        y -= argument0;
+        y -= argument[0];
         break;
     case vk_down:
-        y += argument0;
+        y += argument[0];
         break;
 }
