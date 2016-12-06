@@ -3,15 +3,19 @@
 
 switch (keyboard_key) {
     case vk_left:
-        x -= argument0;
+    case ord("A"):
+        x -= argument[0];
         break;
     case vk_right:
-        x += argument0;
+    case ord("D"):
+        x += argument[0];
         break;
     case vk_up:
-        y -= argument0;
+    case ord("W"):
+        y -= argument[0];
         break;
     case vk_down:
-        y += argument0;
+    case ord("S"):
+        y += argument[0];
         break;
 }
