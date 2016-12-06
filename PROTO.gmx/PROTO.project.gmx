@@ -11,13 +11,16 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\_moveplayer.gml</script>
+    <script>scripts\_movejog.gml</script>
+    <script>scripts\_soum.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_jogador</object>
+    <object>objects\obj_controlador</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl1</room>
+    <room>rooms\rm_lvl2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
